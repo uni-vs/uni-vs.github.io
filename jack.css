@@ -1,5 +1,15 @@
-.title {
- font-family: 'futura', heavy ;
+ @font-face {
+  font-family: 'open-sans';
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+ }
+
+}
+
+
+.subtitle {
+ font-family: 'open-sans' sans-serif;
+ font-weight: 300;
+ font-style: italic;
 }
 
 
