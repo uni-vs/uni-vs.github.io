@@ -33,7 +33,7 @@
  }
 
  .tile.is-child {
-     min-height: 475px ;
+     min-height: 500px ;
  }
 
  .text-overlay {
@@ -56,3 +56,4 @@
          opacity: .7
      }
  }
+
