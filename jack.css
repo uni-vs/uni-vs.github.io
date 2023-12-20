@@ -16,3 +16,43 @@
      left: 50%;
      transform: translate(-50%, -50%);
  }
+
+ .img-bg {
+     position: absolute;
+     top: 0;
+     left: 0;
+     overflow: hidden;
+     z-index: 100;
+ }
+
+
+ .overflow-hidden {
+     position: relative;
+     z-index: 0;
+     overflow: hidden;
+ }
+
+ .tile.is-child {
+     min-height: 475px ;
+ }
+
+ .text-overlay {
+     position: absolute;
+     z-index: 10000;
+     opacity: 0;
+     transition: opacity 0.5s;
+     min-height: 200px;
+ }
+
+ .overflow-hidden {
+
+ }
+
+ article:hover {
+     & .text-overlay {
+         opacity: 1
+     }
+     & .img-bg {
+         opacity: .7
+     }
+ }
