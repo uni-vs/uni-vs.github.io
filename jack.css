@@ -32,14 +32,37 @@
      overflow: hidden;
  }
 
- .tile.is-child {
-     min-height: 500px ;
+ .box.homepage {
+     min-height: 50vh;
  }
 
- .tile.is-orphan {
-     min-height: 230px ;
+ .container.conpos {
+     background-position: top;
+ }
+
+ @media only screen and (max-width: 400px)  {
+     .box.homepage {
+         max-height: 15vh;
+     }
 
  }
+
+ @media only screen and (max-width: 800px)  {
+     .box.homepage {
+         min-height: 30vh;
+     }
+
+ }
+
+
+ @media only screen and (max-width: 1200px){
+     .box.homepage {
+         min-height: 40vh;
+     }
+
+ }
+
+
 
  .text-overlay {
      position: absolute;
@@ -48,6 +71,15 @@
      transition: opacity 0.5s;
      min-height: 200px;
  }
+
+ .text-overlay2 {
+     position: absolute;
+     z-index: 10000;
+     opacity: 100;
+     transition: opacity 0.5s;
+     min-height: 200px;
+ }
+
 
  .overflow-hidden {
 
