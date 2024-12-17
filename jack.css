@@ -17,6 +17,9 @@
      transform: translate(-50%, -50%);
  }
 
+ .navbar.bgtrans {
+
+ }
  .img-bg {
      position: absolute;
      top: 0;
@@ -26,6 +29,10 @@
  }
 
 
+
+
+
+
  .overflow-hidden {
      position: relative;
      z-index: 0;
@@ -33,12 +40,11 @@
  }
 
  .box.homepage {
-     min-height: 50vh;
+     min-height: 85vh;
  }
 
- .container.conpos {
-     background-position: top;
- }
+
+
 
  @media only screen and (max-width: 400px)  {
      .box.homepage {
@@ -92,5 +98,7 @@
      & .img-bg {
          opacity: .7
      }
+
+
  }
 
