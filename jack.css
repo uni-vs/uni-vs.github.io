@@ -17,9 +17,7 @@
      transform: translate(-50%, -50%);
  }
 
- .navbar.bgtrans {
 
- }
  .img-bg {
      position: absolute;
      top: 0;
@@ -63,7 +61,7 @@
 
  @media only screen and (max-width: 1200px){
      .box.homepage {
-         min-height: 40vh;
+         min-height: 80vh;
      }
 
  }
