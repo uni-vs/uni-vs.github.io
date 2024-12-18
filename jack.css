@@ -8,6 +8,11 @@
  font-weight: 300;
  font-style: italic;
 }
+ .subtitle2 {
+     font-family: 'open-sans' sans-serif;
+     font-weight: 300;
+     font-style: normal;
+ }
 
  .topnav-centered a {
      float: none;
@@ -100,3 +105,14 @@
 
  }
 
+ .container. {
+
+ }
+
+ .footer {
+     background: #FFFFFF;
+     height: 70px;
+     font-family: 'Open Sans', sans-serif;
+     color: black;
+     padding: 20px;
+ }
