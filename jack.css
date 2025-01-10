@@ -46,8 +46,12 @@
      min-height: 85vh;
  }
 
-
-
+ .box.homepage2 {
+     min-height: 60vh;
+ }
+ .box.homepage3 {
+     min-height: 35vh;
+ }
 
  @media only screen and (max-width: 400px)  {
      .box.homepage {
@@ -83,9 +87,9 @@
 
  .text-overlay2 {
      position: absolute;
-     z-index: 10000;
+     z-index: 100;
      opacity: 100;
-     transition: opacity 0.5s;
+
      min-height: 200px;
  }
 
