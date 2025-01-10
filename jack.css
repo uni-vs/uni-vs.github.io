@@ -43,7 +43,7 @@
  }
 
  .box.homepage {
-     min-height: 90vh;
+     min-height: 85vh;
  }
 
 
@@ -51,22 +51,22 @@
 
  @media only screen and (max-width: 400px)  {
      .box.homepage {
-         max-height: 40vh;
+         max-height: 15vh;
      }
 
  }
 
  @media only screen and (max-width: 800px)  {
      .box.homepage {
-         min-height: 75vh;
+         min-height: 30vh;
      }
 
  }
 
 
- @media only screen and (max-width: 1300px){
+ @media only screen and (max-width: 1200px){
      .box.homepage {
-         min-height: 75vh;
+         min-height: 70vh;
      }
 
  }
