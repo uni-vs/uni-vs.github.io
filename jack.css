@@ -47,10 +47,10 @@
  }
 
  .box.homepage2 {
-     min-height: 60vh;
+     min-height: 50vh;
  }
  .box.homepage3 {
-     min-height: 35vh;
+     min-height: 30vh;
  }
 
  @media only screen and (max-width: 400px)  {
